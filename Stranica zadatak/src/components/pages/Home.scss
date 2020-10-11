@@ -1,0 +1,209 @@
+.crveni-cont {
+    overflow: hidden;
+    height: 850px;
+    max-height: 1080px;
+    position: relative;
+}
+
+.crveni {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+}
+
+.ime-auta {
+    display: flex;
+    font-size: 45px;
+    position: absolute;
+    width: 100%;
+    justify-content: center;
+    top: 0;
+    color: #fff;
+}
+
+.spec-auta {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 25px;
+    position: absolute;
+    width: 650px;
+    left: 150px;
+    bottom: 60px;
+    color: #fff;
+
+    .odd {
+        flex-grow: 1;
+        width: 33%;
+        height: 35px;
+    }
+}
+
+.button {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    justify-content: center;
+    padding-left: 40rem;
+}
+
+.veliki-cont {
+    height: 700px;
+    background-color: black;
+}
+
+.crni-cont {
+    display: flex;
+    flex-direction: row wrap;
+    background-color: black;
+}
+
+
+.crni {
+    display: flex;
+    width: 40%;
+    margin-top: 30px;
+    padding: 50px;
+}
+
+.crni-p {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-size: 35px;
+    width: 50%;
+    padding-top: 50px;
+}
+
+// .flex-p {
+//     display: grid;
+//     grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+//     padding-top: 30px;
+// }
+
+.flex-p {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+
+.p-naslov {
+    font-size: 45px;
+}
+
+.p-big {
+    flex-grow: 1;
+    width: 25%;
+    height: 35px;
+    font-size: 35px;
+}
+
+.p-small {
+    flex-grow: 1;
+    width: 25%;
+    height: 35px;
+    font-size: 20px;
+    padding-top: 8px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-size: 15px;
+    position: static;
+    bottom: 0;
+    align-items: center;
+    width: 100%;
+}
+
+@media (min-width: 1920px) {
+    .ime-auta {
+        padding: 6rem;
+        font-size: 45px;
+    }
+}
+
+@media (max-width: 1820px) {
+    .crveni {
+        position: static;
+    }
+
+    .ime-auta {
+        padding-top: 15rem;
+    }
+}
+
+@media (max-width: 1510px) {
+    .crveni-cont {
+        height: auto;
+    }
+}
+
+@media (max-width: 1279px) and (min-width: 1164px) {
+    .ime-auta {
+        padding-top: 7rem;
+    }
+
+    .crni-p {
+        width: 55%;
+    }
+}
+
+@media (max-width: 1163px) and (min-width: 1016px) {
+    .crni-p {
+        width: 70%;
+        font-size: 25px;
+    }
+
+    .p-naslov {
+        font-size: 35px;
+    }
+    
+    .p-big {
+        font-size: 25px;
+    }
+    
+    .p-small {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 1015px) {
+    .flex-p {
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    }
+
+    .crni-p {
+        width: 45%;
+        font-size: 25px;
+    }
+
+    .p-naslov {
+        font-size: 25px;
+    }
+    
+    .p-big {
+        font-size: 15px;
+    }
+    
+    .p-small {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 840px) {
+    .ime-auta,
+    .spec-auta,
+    .button {
+        display: none;
+    }
+}
+
+@media (max-width: 1920px) and (min-width: 1600px) {
+    .crni-p {
+        width: 40%; 
+    }
+}
