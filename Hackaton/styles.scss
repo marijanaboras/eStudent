@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+}
+#main {
+    display: flex;
+    flex-wrap: wrap;
+}
+#flex-50 {
+    flex-basis: 48%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 10px 0;
+    background-color: lightblue;
+    border: 1px solid grey;
+}
+.varijable, .uvjeti, .stringovi, .funkcije {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+}
+
+#varijable, #uvjeti, #uvjeti2, #stringovi, #funkcije, #objekti, #set, #klase, #petlja1,
+#petlja2, #petlja3, #petlja4, #listaPetlja, #rekurzija, #set, #objekti2, #rekurzije2, 
+#sve, #datoteke, #klaseStrDoc, #funkcijeObjekti {
+    margin: 0 5px;
+    color: rgb(190, 18, 18);
+}
