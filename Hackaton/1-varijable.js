@@ -8,3 +8,5 @@ var opremanje = 96092;
 var troskovi = konstrukcija + kroviste + stolarija + fasada + instalacije + zavrsniRadovi + opremanje;
 
 document.getElementById("varijable").innerHTML = troskovi;
+
+//Točno.
